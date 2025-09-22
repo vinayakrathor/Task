@@ -51,6 +51,7 @@ import RegistrationForm from "./RegistrationForm"; // your form code
 import AdminPage from "./AdminPage";
 import Test from "./Test";
 import Contact from "./Contact";
+import Demo2 from "./demo2";
 function App() {
   return (
     <Router>
@@ -60,6 +61,7 @@ function App() {
         <Route path="/admin" element={<AdminPage />} /> {/* Admin page */}
         <Route path="/test" element={<Test />} /> {/* Admin page */}
         <Route path="/contact" element={<Contact />} />
+        <Route path="/demo" element={<Demo2 />} />
        
   </Routes>
     </Router>
